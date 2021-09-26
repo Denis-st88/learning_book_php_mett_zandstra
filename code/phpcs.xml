@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ruleset xmlns="App coding standard">
+    <arg value="p"/>
+    <arg name="colors"/>
+    <arg name="cache" value="var/.phpcs.cache"/>
+
+    <rule ref="PSR12"/>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
+        <properties>
+            <property name="ignoreBlankLines" value="false"/>
+        </properties>
+    </rule>
+
+    <file>patterns</file>
+</ruleset>

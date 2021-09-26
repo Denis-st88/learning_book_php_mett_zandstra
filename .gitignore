@@ -1,0 +1,4 @@
+book
+code/vendor
+.idea
+!.gitignore
